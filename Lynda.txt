@@ -1,0 +1,11 @@
+document.querySelector("video").playbackRate = 0.90;
+
+
+
+var arr = document.querySelectorAll(".transcripts span");
+for (var i = 0; i< arr.length; i++) {
+	arr[i].removeAttribute("data-ga-action");
+	arr[i].removeAttribute("data-ga-label");
+	arr[i].removeAttribute("data-duration");
+	arr[i].removeAttribute("class");
+}
